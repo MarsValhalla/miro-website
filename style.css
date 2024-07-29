@@ -1,0 +1,539 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  padding-inline: 20px;
+  box-shadow: 0 1px 1px #e3e3e3;
+}
+.miroo {
+  height: 25px;
+}
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__links_wrapper {
+  margin-left: 20px;
+}
+
+.header__links {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 550px;
+  list-style: none;
+  font-size: 16px;
+}
+.register {
+  color: white;
+  background-color: #4262ff;
+  border-radius: 25px;
+  border: 1px;
+  height: 50px;
+  width: 157px;
+}
+.world {
+  width: 24px;
+  height: 24px;
+}
+.reg {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 14px;
+}
+.starting {
+  width: 100%;
+  max-width: 1600px;
+  padding: 0 20px;
+
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.starting__wrapper {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  align-items: center;
+  padding-inline: 50px;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+}
+.aa {
+  height: 48px;
+  width: 422px;
+}
+p {
+  font-size: 18px;
+}
+.imaging {
+  padding-top: 0px;
+  width: 60%;
+}
+
+.imaging img {
+  width: 100%;
+}
+.start {
+  width: 440px;
+  height: 48px;
+  border-radius: 32px;
+  border: solid 1px #9b99af;
+  background-color: white;
+}
+.start2 {
+  width: 440px;
+  height: 48px;
+  border-radius: 32px;
+  border: 1px;
+  background-color: #4262ff;
+  color: white;
+}
+.icon {
+  display: flex;
+  justify-content: space-around;
+  width: 440px;
+  padding-top: 48px;
+  list-style: none;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  align-items: center;
+  padding-inline: 50px;
+}
+.search h1 {
+  width: 440px;
+}
+.search p {
+  width: 400px;
+  color: #05003899;
+}
+.inf {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 80px;
+}
+.img2 {
+  padding-top: 0px;
+  width: 60%;
+}
+
+.img2 img {
+  width: 100%;
+}
+
+.kart {
+  padding-top: 0px;
+  width: 60%;
+}
+.chtoto img {
+  width: 100%;
+}
+.chtoto {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  align-items: center;
+  padding-inline: 50px;
+}
+.slovo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 80px;
+}
+.chtoto h1 {
+  width: 440px;
+}
+.chtoto p {
+  width: 400px;
+  color: #05003899;
+}
+.ktoto h1 {
+  width: 1000px;
+  padding-inline: 30px;
+  margin-bottom: 40px;
+}
+.karta {
+  padding-top: 0px;
+  width: 60%;
+  display: flex;
+}
+.ktoto img {
+  width: 100%;
+}
+
+.ktoto button {
+  border-radius: 24px;
+  border: solid 1px #f2f2f2;
+  background-color: white;
+  height: 48px;
+  justify-content: flex-start;
+}
+.zag {
+  width: 1300px;
+  display: flex;
+  justify-content: space-around;
+}
+.teht {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+.teht p {
+  width: 400px;
+  color: #050038;
+  font-weight: 700;
+}
+.ktoto2 {
+  display: flex;
+  justify-content: space-around;
+  gap: 60px;
+}
+
+/* ....... */
+
+.zachem h1 {
+  width: 1000px;
+  padding-inline: 30px;
+  margin-bottom: 40px;
+}
+.karto {
+  padding-top: 0px;
+  width: 60%;
+  display: flex;
+}
+.zachem img {
+  width: 100%;
+}
+
+.zachem button {
+  border-radius: 24px;
+  border: solid 1px #f2f2f2;
+  background-color: white;
+  height: 48px;
+  justify-content: flex-start;
+}
+.naw {
+  width: 1300px;
+  display: flex;
+  justify-content: space-around;
+}
+.tent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+.tent p {
+  width: 250px;
+  color: #05003899;
+  font-weight: 700;
+}
+.zachem2 {
+  display: flex;
+  justify-content: space-around;
+  gap: 60px;
+}
+.zachem3 {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #05003899;
+  padding-bottom: 80px;
+}
+
+.yellow {
+  background-color: #ffd02f;
+}
+.hello {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.hello h1 {
+  width: 500px;
+  text-align: center;
+}
+.hello a {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  color: #050038;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+}
+
+.iso {
+  width: 350px;
+  text-align: center;
+}
+.muso {
+  width: 350px;
+  text-align: center;
+}
+.husso {
+  width: 270px;
+  text-align: center;
+}
+.top h1 {
+  text-align: center;
+  font-weight: 900;
+  color: #050038;
+}
+
+.niz {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+  padding-bottom: 80px;
+}
+
+.oube {
+  width: 350px;
+  text-align: center;
+}
+.gube {
+  width: 350px;
+  text-align: center;
+}
+.labe {
+  width: 270px;
+  text-align: center;
+}
+.niz h1 {
+  text-align: center;
+  font-weight: 900;
+  color: #050038;
+}
+
+.like button {
+  border-radius: 24px;
+  border: solid 1px #4262ff;
+  width: 264px;
+  height: 46px;
+  background-color: white;
+  margin-top: 30px;
+}
+.like {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.like h1 {
+  width: 830px;
+  text-align: center;
+  margin-top: 110px;
+}
+.com {
+  display: flex;
+  justify-content: space-around;
+  padding-inline: 6px;
+  padding-top: 80px;
+}
+.com p {
+  font-weight: 400;
+  color: #05003899;
+  margin-top: 20px;
+}
+.com1 {
+  height: 216px;
+  width: 284px;
+}
+.com2 {
+  width: 287px;
+  height: 216px;
+}
+.com3 {
+  width: 289px;
+  height: 168px;
+}
+.maan {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+}
+
+.siniy__wrapper {
+  background-color: #050038;
+  margin-inline: 60px;
+  margin-top: 120px;
+  padding-bottom: 150px;
+  border-radius: 16px;
+  text-align: center;
+}
+.siniy__wrapper-texts {
+  margin: auto;
+}
+.siniy h1 {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  max-width: 660px;
+  width: 100%;
+  padding: 118px 0 20px;
+}
+.siniy__wrapper-texts p {
+  color: #ffffff99;
+  max-width: 100%;
+  margin: auto;
+  width: 525px;
+  text-align: center;
+  margin-top: 20px;
+}
+.siniy__wrapper-texts a {
+  color: #ffffff99;
+}
+.siniy__wrapper-texts button {
+  background-color: #4262ff;
+  border-radius: 32px;
+  width: 251px;
+  height: 48px;
+  border: 1px;
+  color: white;
+  margin-top: 90px;
+}
+
+/* SHADOW */
+/* BORDER */
+/* font family using cdn */
+
+/* SHADOW */
+/* BORDER */
+/* font family using cdn */
+
+.nam {
+  width: 250px;
+  font-size: 15px;
+}
+
+.nan {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+footer {
+  background-color: #050038;
+}
+
+.info__wrapper {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 100px;
+  color: white;
+}
+
+.product ul {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 153px;
+}
+.resh ul {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 193px;
+}
+.res ul {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 202px;
+}
+.komp ul {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 148px;
+}
+.tarif ul {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 136px;
+}
+
+
+.konec {
+  padding-inline: 20px;
+  padding-top: 25px;
+}
+
+.nu ul{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  margin-left: 150px;
+}
+.davay {
+  margin-top: 50px;
+  padding-inline: 20px;
+  padding-bottom: 50px;
+}
+hr {
+  margin-top: 200px;
+  margin: 200px 50px 0px;
+}
